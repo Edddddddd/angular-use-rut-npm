@@ -30,7 +30,10 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+             "node_modules/vue/dist/vue.min.js",
+             "src/libs/my-vue-calc/my-vue-calc.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "use-rut"
+    }
+  },
+  "defaultProject": "use-rut",
+  "cli": {
+    "analytics": false
+  }
 }
